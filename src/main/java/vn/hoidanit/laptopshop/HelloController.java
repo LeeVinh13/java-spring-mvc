@@ -3,10 +3,10 @@ package vn.hoidanit.laptopshop;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@RestController // Hoặc @Controller nếu sử dụng View (Thymeleaf, JSP, etc.)
 public class HelloController {
     @GetMapping("/")
     public String index() {
-        return "Hello World from Spring Boot";
+        return "hello world from vinh le";
     }
 }
